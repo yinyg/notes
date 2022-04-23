@@ -53,7 +53,7 @@ Hash 索引和 B+ 树索引有以下几点显见的区别：(来源：力扣(Lee
 
 聚集索引：叶节点包含了完整的数据记录，MyISAM存储引擎主键索引的叶子节点存储的是数据的地址，InnoDB存储引擎主键索引的叶子节点存储的是完整的数据记录。
 
-![](https://github.com/yinyg/notes/blob/main/mysql/MyISAM%E5%AD%98%E5%82%A8%E5%BC%95%E6%93%8E%E4%B8%80%E7%BA%A7%E7%B4%A2%E5%BC%95.png)
+![MyISAM存储引擎一级索引](https://github.com/yinyg/notes/blob/main/mysql/MyISAM%E5%AD%98%E5%82%A8%E5%BC%95%E6%93%8E%E4%B8%80%E7%BA%A7%E7%B4%A2%E5%BC%95.png)
 
 ![](https://github.com/yinyg/notes/blob/main/mysql/InnoDB%E5%AD%98%E5%82%A8%E5%BC%95%E6%93%8E%E4%B8%80%E7%BA%A7%E7%B4%A2%E5%BC%95.png)
 
