@@ -55,6 +55,12 @@ Hash 索引和 B+ 树索引有以下几点显见的区别：(来源：力扣(Lee
 
 ![](https://github.com/yinyg/notes/blob/main/mysql/MyISAM%E5%AD%98%E5%82%A8%E5%BC%95%E6%93%8E%E4%B8%80%E7%BA%A7%E7%B4%A2%E5%BC%95.png)
 
+![](https://github.com/yinyg/notes/blob/main/mysql/InnoDB%E5%AD%98%E5%82%A8%E5%BC%95%E6%93%8E%E4%B8%80%E7%BA%A7%E7%B4%A2%E5%BC%95.png)
+
+![](https://github.com/yinyg/notes/blob/main/mysql/InnoDB%E5%AD%98%E5%82%A8%E5%BC%95%E6%93%8E%E4%BA%8C%E7%BA%A7%E7%B4%A2%E5%BC%95.png)
+
+![](https://github.com/yinyg/notes/blob/main/mysql/InnoDB%E5%AD%98%E5%82%A8%E5%BC%95%E6%93%8E%E8%81%94%E5%90%88%E7%B4%A2%E5%BC%95.png)
+
 **为什么建议InnoDB表必须建主键，并且推荐使用整型的自增主键？**
 
 如果设置了逐渐，InnoDB会选择主键组织聚集索引，如果没有建主键，InnoDB会选择一个不包含null值的唯一索引组织聚集索引，如果没有这样的唯一索引，InnoDB会用一个递增的rowid组织聚集索引。
