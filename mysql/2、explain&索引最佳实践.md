@@ -36,7 +36,7 @@ system > const > eq_ref > ref > range > index > ALL。
 
 **const，system：**MySQL能对查询的某部分进行优化并将其转化成一个常量（可以看show warnings的结果）。用于primary key或unique key的所有列与常数比较时，所以表最多有一个匹配行，读取一次，速度比较快，**system是const的特例**，表里只有一条元祖匹配时为system。
 
-**eq_ref：**primary key或union key索引的所有列被联接使用，最多只会返回一条符合条件的记录。这可能是在const之外最好的联接类型了，简单的select查询不会出现这种type。
+**eq_ref：**primary key或union key索引的所有列被连接使用，最多只会返回一条符合条件的记录。这可能是在const之外最好的连接类型了，简单的select查询不会出现这种type。
 
 **ref：**相比eq_ref，不使用唯一索引，而是使用普通索引或者唯一索引的部分前缀，索引要和某个值相比较，可能会找到多个符合条件的行。
 
@@ -82,7 +82,7 @@ system > const > eq_ref > ref > range > index > ALL。
 
 #### filtered
 
-百分比值，rows * filtered / 100可以估算除将要和explain中前一个表进行联接的行数（前一个表指explain中id值比当前表小的表）。
+百分比值，rows * filtered / 100可以估算除将要和explain中前一个表进行连接的行数（前一个表指explain中id值比当前表小的表）。
 
 
 
