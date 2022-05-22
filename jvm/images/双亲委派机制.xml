@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-05-21T13:54:19.542Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36" etag="s3S5f5SVoddwufrSuUPS" version="18.0.6" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-22T05:22:20.923Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36" etag="WqZ5hnRm0SJEc9vTTeF1" version="18.0.6" type="github">
   <diagram id="Dh7NB93wEscftsFgLDZq" name="Page-1">
-    <mxGraphModel dx="1037" dy="1129" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
+    <mxGraphModel dx="1008" dy="1129" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -30,12 +30,6 @@
         </mxCell>
         <mxCell id="_cnutTR1CRBjd70VXyzH-20" value="向上委托" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=18;" parent="1" vertex="1">
           <mxGeometry x="420" y="310" width="90" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="_cnutTR1CRBjd70VXyzH-21" value="向上委托" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=18;" parent="1" vertex="1">
-          <mxGeometry x="260" y="550" width="90" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="_cnutTR1CRBjd70VXyzH-22" value="向上委托" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=18;" parent="1" vertex="1">
-          <mxGeometry x="460" y="550" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="_cnutTR1CRBjd70VXyzH-23" value="向上委托" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=18;" parent="1" vertex="1">
           <mxGeometry x="420" y="190" width="90" height="30" as="geometry" />
