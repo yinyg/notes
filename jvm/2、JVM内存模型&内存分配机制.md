@@ -21,7 +21,7 @@
 方法区是JVM规范，所有虚拟机必须遵守。永久代（PermGen space，<=jdk7）、元空间（Metaspace，>=jdk8）是HotSpot对方法区的实现。
 
 - **-XX:MaxMetaspaceSize=256m**: 设置元空间最大内存，默认-1，即不限制，或者说只受限于本地内存大小；
-- **-XX:MetaspaceSize=256m**: 设置元空间触发full GC的初始阈值，默认为21m，达到该值就会触发full GC进行类型卸载，同时收集器会对该值进行调整：如果释放了大量的空间，就适当减低该值；如果释放了很少的空间，那么在不超过-XX:MaxMetaspaceSize(如果设置了的话)的情况下，释放提高该值；
+- **-XX:MetaspaceSize=256m**: 设置元空间触发full GC的初始阈值，默认为21m，达到该值就会触发full GC进行类型卸载，同时收集器会对该值进行调整：如果释放了大量的空间，就适当减低该值；如果释放了很少的空间，那么在不超过-XX:MaxMetaspaceSize(如果设置了的话)的情况下，适当提高该值；
 - **-XX:PermSize=256m**: 设置永久代初始内存。
 
 由于调整元空间的大小需要full GC，这是非常昂贵的操作，如果应用在启动的时候就发生大量的full GC，通常是由于元空间发生了大小调整，基于这种情况，一般建议在JVM参数中将-XX:MetaspaceSize和-XX:MaxMetaspaceSize设置成一样的值，并设置得比初始值要大，对于8G物理内存的机器来说，一般将这两个值都设置成256m。
@@ -46,7 +46,7 @@
 **解决并发问题的方法**：
 
 - **CAS(compare and swap)**: 虚拟机采用CAS配上失败重试的方式保证更新操作的原子性来对分配内存空间的动作进行同步处理；
-- **本地线程分配缓冲（Thread Local Allocation Buffer,TLAB）**: 把内存分配的动作按照线程划分在不同的空间之中进行，即每个线程在JVM堆中预先分配一小块内存，通过-XX:+/-UseTLAB参数来设定虚拟机是否使用TLAB(JVM默认会开启-XX:+UseTLAB), -XXTLAPSize指定TLAB大小。 
+- **本地线程分配缓冲（Thread Local Allocation Buffer,TLAB）**: 把内存分配的动作按照线程划分在不同的空间之中进行，即每个线程在JVM堆中预先分配一小块内存，通过-XX:+/-UseTLAB参数来设定虚拟机是否使用TLAB(JVM默认会开启-XX:+UseTLAB), -XXTLABSize指定TLAB大小。 
 
 #### 3、初始化
 
