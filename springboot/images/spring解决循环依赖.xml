@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-04T07:43:25.839Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36" etag="IAV6UuFsRfY6MIMdgSPu" version="20.2.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-09-04T07:45:54.356Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36" etag="RaNPxLsowVLhmIOj3OkO" version="20.2.2" type="github">
   <diagram id="Iz5UzUSwP8u7kvXRo5tX" name="第 1 页">
     <mxGraphModel dx="975" dy="1059" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
       <root>
@@ -169,8 +169,14 @@
         <mxCell id="pgpas9Yd9BuzsH6gozhK-64" value="初始化bean a" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="480" y="2230" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="pgpas9Yd9BuzsH6gozhK-70" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=14;" edge="1" parent="1" source="pgpas9Yd9BuzsH6gozhK-65" target="pgpas9Yd9BuzsH6gozhK-69">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="pgpas9Yd9BuzsH6gozhK-65" value="将bean a放入一级缓存，并从二级缓存中移除" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="395" y="2360" width="290" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pgpas9Yd9BuzsH6gozhK-69" value="返回bean a" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="480" y="2490" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
