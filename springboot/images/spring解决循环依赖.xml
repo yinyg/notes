@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-04T06:47:24.124Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36" etag="pY3HpFSNoYAa0PB9smZL" version="20.2.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-09-04T07:43:25.839Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36" etag="IAV6UuFsRfY6MIMdgSPu" version="20.2.2" type="github">
   <diagram id="Iz5UzUSwP8u7kvXRo5tX" name="第 1 页">
     <mxGraphModel dx="975" dy="1059" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
       <root>
@@ -103,20 +103,74 @@
         <mxCell id="pgpas9Yd9BuzsH6gozhK-39" value="doCreateBean(&quot;b&quot;, mdbToUse, args)" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="887.5" y="1120" width="250" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="pgpas9Yd9BuzsH6gozhK-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=14;" edge="1" parent="1" source="pgpas9Yd9BuzsH6gozhK-41" target="pgpas9Yd9BuzsH6gozhK-42">
+        <mxCell id="pgpas9Yd9BuzsH6gozhK-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" edge="1" parent="1" source="pgpas9Yd9BuzsH6gozhK-41" target="pgpas9Yd9BuzsH6gozhK-47">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="pgpas9Yd9BuzsH6gozhK-41" value="实例化bean b" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="952.5" y="1240" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="pgpas9Yd9BuzsH6gozhK-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=14;" edge="1" parent="1" source="pgpas9Yd9BuzsH6gozhK-42" target="pgpas9Yd9BuzsH6gozhK-51">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="pgpas9Yd9BuzsH6gozhK-42" value="填充属性a" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="952.5" y="1360" width="120" height="60" as="geometry" />
+          <mxGeometry x="952.5" y="1480" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="pgpas9Yd9BuzsH6gozhK-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=14;" edge="1" parent="1" source="pgpas9Yd9BuzsH6gozhK-44" target="pgpas9Yd9BuzsH6gozhK-24">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="pgpas9Yd9BuzsH6gozhK-44" value="将bean a的singletonFactory放入三级缓存singletonFactories" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="435" y="1360" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pgpas9Yd9BuzsH6gozhK-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=14;" edge="1" parent="1" source="pgpas9Yd9BuzsH6gozhK-47" target="pgpas9Yd9BuzsH6gozhK-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pgpas9Yd9BuzsH6gozhK-47" value="将bean a的singletonFactory放入三级缓存singletonFactories" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="907.5" y="1360" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pgpas9Yd9BuzsH6gozhK-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=14;" edge="1" parent="1" source="pgpas9Yd9BuzsH6gozhK-51" target="pgpas9Yd9BuzsH6gozhK-52">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pgpas9Yd9BuzsH6gozhK-51" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;getBean(&quot;a&quot;)&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="1680" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pgpas9Yd9BuzsH6gozhK-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=14;" edge="1" parent="1" source="pgpas9Yd9BuzsH6gozhK-52" target="pgpas9Yd9BuzsH6gozhK-55">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pgpas9Yd9BuzsH6gozhK-52" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;doGetBean(&quot;a&quot;, null, null, false)&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="430" y="1800" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pgpas9Yd9BuzsH6gozhK-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=14;" edge="1" parent="1" source="pgpas9Yd9BuzsH6gozhK-55" target="pgpas9Yd9BuzsH6gozhK-57">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pgpas9Yd9BuzsH6gozhK-55" value="getSingleton(&quot;a&quot;)" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="480" y="1920" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pgpas9Yd9BuzsH6gozhK-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=14;" edge="1" parent="1" source="pgpas9Yd9BuzsH6gozhK-57" target="pgpas9Yd9BuzsH6gozhK-59">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pgpas9Yd9BuzsH6gozhK-57" value="从三级缓存获取bean a，放入二级缓存，并将bean a从三级缓存移除" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="410" y="2040" width="260" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pgpas9Yd9BuzsH6gozhK-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=14;" edge="1" parent="1" source="pgpas9Yd9BuzsH6gozhK-59" target="pgpas9Yd9BuzsH6gozhK-61">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pgpas9Yd9BuzsH6gozhK-59" value="初始化bean b" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="952.5" y="1830" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pgpas9Yd9BuzsH6gozhK-68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=14;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="pgpas9Yd9BuzsH6gozhK-61" target="pgpas9Yd9BuzsH6gozhK-64">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pgpas9Yd9BuzsH6gozhK-61" value="将bean b放入一级缓存，并从三级缓存中移除" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="867.5" y="1950" width="290" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pgpas9Yd9BuzsH6gozhK-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=14;" edge="1" parent="1" source="pgpas9Yd9BuzsH6gozhK-64" target="pgpas9Yd9BuzsH6gozhK-65">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pgpas9Yd9BuzsH6gozhK-64" value="初始化bean a" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="480" y="2230" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pgpas9Yd9BuzsH6gozhK-65" value="将bean a放入一级缓存，并从二级缓存中移除" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="395" y="2360" width="290" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
