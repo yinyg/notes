@@ -1,0 +1,100 @@
+<mxfile host="app.diagrams.net" modified="2023-05-14T14:29:09.255Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="2rRW-V3cp5RCmXQlv5yB" version="21.3.0" type="github">
+  <diagram name="第 1 页" id="KzXpoUsinr9L7-K2EYlC">
+    <mxGraphModel dx="1026" dy="575" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="fPZG85Df_GduBJEFQ0oY-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="fPZG85Df_GduBJEFQ0oY-1" target="fPZG85Df_GduBJEFQ0oY-2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fPZG85Df_GduBJEFQ0oY-1" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
+          <mxGeometry x="360" y="120" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="fPZG85Df_GduBJEFQ0oY-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="fPZG85Df_GduBJEFQ0oY-2" target="fPZG85Df_GduBJEFQ0oY-4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fPZG85Df_GduBJEFQ0oY-2" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;实例化&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="270" y="200" width="220" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="fPZG85Df_GduBJEFQ0oY-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="fPZG85Df_GduBJEFQ0oY-4" target="fPZG85Df_GduBJEFQ0oY-7" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fPZG85Df_GduBJEFQ0oY-4" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;将bean添加到singletonFactories中&lt;br&gt;(singletonFactories存放的是ObjectFactory函数式接口)&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="195" y="290" width="370" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fPZG85Df_GduBJEFQ0oY-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="fPZG85Df_GduBJEFQ0oY-7" target="fPZG85Df_GduBJEFQ0oY-10" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fPZG85Df_GduBJEFQ0oY-7" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;填充属性&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="272.5" y="390" width="215" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fPZG85Df_GduBJEFQ0oY-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="fPZG85Df_GduBJEFQ0oY-10" target="fPZG85Df_GduBJEFQ0oY-13" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fPZG85Df_GduBJEFQ0oY-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="fPZG85Df_GduBJEFQ0oY-10" target="fPZG85Df_GduBJEFQ0oY-23" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fPZG85Df_GduBJEFQ0oY-10" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;是否存在循环依赖&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="285" y="500" width="190" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="fPZG85Df_GduBJEFQ0oY-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="fPZG85Df_GduBJEFQ0oY-13" target="fPZG85Df_GduBJEFQ0oY-15" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fPZG85Df_GduBJEFQ0oY-13" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;初始化&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="272.5" y="630" width="215" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fPZG85Df_GduBJEFQ0oY-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="fPZG85Df_GduBJEFQ0oY-15" target="fPZG85Df_GduBJEFQ0oY-17" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fPZG85Df_GduBJEFQ0oY-15" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;执行bean后置处理器方法postProcessAfterInitialization&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="190" y="740" width="380" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fPZG85Df_GduBJEFQ0oY-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="fPZG85Df_GduBJEFQ0oY-17" target="fPZG85Df_GduBJEFQ0oY-18" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fPZG85Df_GduBJEFQ0oY-17" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;AbstractAutoProxyCreator#postProcessAfterInitialization&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="190" y="850" width="380" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fPZG85Df_GduBJEFQ0oY-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="fPZG85Df_GduBJEFQ0oY-18" target="fPZG85Df_GduBJEFQ0oY-21" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fPZG85Df_GduBJEFQ0oY-18" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;AbstractAutoProxyCreator#wrapIfNecessary&lt;br&gt;(这个方法实现了AOP的核心逻辑)&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="190" y="960" width="380" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fPZG85Df_GduBJEFQ0oY-21" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
+          <mxGeometry x="360" y="1070" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="fPZG85Df_GduBJEFQ0oY-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="fPZG85Df_GduBJEFQ0oY-23" target="fPZG85Df_GduBJEFQ0oY-25" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fPZG85Df_GduBJEFQ0oY-23" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;执行ObjectFactory函数式接口方法，即&lt;/font&gt;ObjectFactory.getObject&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="750" y="510" width="420" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fPZG85Df_GduBJEFQ0oY-24" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;否&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="380" y="585" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fPZG85Df_GduBJEFQ0oY-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="fPZG85Df_GduBJEFQ0oY-25" target="fPZG85Df_GduBJEFQ0oY-29" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fPZG85Df_GduBJEFQ0oY-25" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;AbstractAutowireCapableBeanFactory#getEarlyBeanReference&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="750" y="615" width="420" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fPZG85Df_GduBJEFQ0oY-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="fPZG85Df_GduBJEFQ0oY-29" target="fPZG85Df_GduBJEFQ0oY-18" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fPZG85Df_GduBJEFQ0oY-29" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;AbstractAutoProxyCreator#getEarlyBeanReference&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="750" y="730" width="420" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fPZG85Df_GduBJEFQ0oY-34" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;是&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="510" y="510" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fPZG85Df_GduBJEFQ0oY-35" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;Spring-AOP概要流程图&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="265" y="33" width="230" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="fPZG85Df_GduBJEFQ0oY-36" value="-- 基于SpringBoot-2.6.14的核心流程" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="420" y="68" width="220" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
